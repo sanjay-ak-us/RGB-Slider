@@ -47,7 +47,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fJA-5E-xr0" kind="show" id="Kaf-kf-AsX"/>
+                                    <segue destination="fJA-5E-xr0" kind="show" identifier="openColor" id="Kaf-kf-AsX"/>
                                 </connections>
                             </button>
                         </subviews>
