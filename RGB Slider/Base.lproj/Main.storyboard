@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="837" y="194"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="uf7-ea-fpm">
             <objects>
-                <viewController modalTransitionStyle="partialCurl" id="fJA-5E-xr0" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="partialCurl" id="fJA-5E-xr0" customClass="ViewController2" customModule="RGB_Slider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DLa-TB-wTq"/>
                         <viewControllerLayoutGuide type="bottom" id="Uef-hK-NJh"/>
@@ -85,7 +85,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qyt-FB-59X" kind="show" identifier="openThird" id="eg3-Dj-djF"/>
+                                    <segue destination="qyt-FB-59X" kind="show" identifier="openThird" id="8bT-zv-bMB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -111,12 +111,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5PA-eq-0ky"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8EQ-3c-sJY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1866" y="244"/>
+            <point key="canvasLocation" x="1902" y="318"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H7V-22-XK8">

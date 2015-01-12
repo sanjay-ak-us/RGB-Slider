@@ -41,10 +41,6 @@ class ViewController: UIViewController {
                 let newViewController =  segue.destinationViewController as UIViewController;
                 newViewController.view.backgroundColor = colorSquare.backgroundColor;
             }
-            if (segue.identifier == "openThird") {
-                let newViewController2 =  segue.destinationViewController as UIViewController;
-                newViewController2.view.backgroundColor = colorSquare.backgroundColor;
-            }
     }
 
     @IBAction func updateBackground() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9288045A1A63E74800ACE22E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928804591A63E74800ACE22E /* ViewController2.swift */; };
 		92A72A1B1A5BE1A000DE646E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A72A1A1A5BE1A000DE646E /* AppDelegate.swift */; };
 		92A72A1D1A5BE1A000DE646E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A72A1C1A5BE1A000DE646E /* ViewController.swift */; };
 		92A72A201A5BE1A000DE646E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A72A1E1A5BE1A000DE646E /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		928804591A63E74800ACE22E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		92A72A151A5BE1A000DE646E /* RGB Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A72A191A5BE1A000DE646E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A72A1A1A5BE1A000DE646E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				92A72A211A5BE1A000DE646E /* Images.xcassets */,
 				92A72A231A5BE1A000DE646E /* LaunchScreen.xib */,
 				92A72A181A5BE1A000DE646E /* Supporting Files */,
+				928804591A63E74800ACE22E /* ViewController2.swift */,
 			);
 			path = "RGB Slider";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				92A72A1D1A5BE1A000DE646E /* ViewController.swift in Sources */,
 				92A72A1B1A5BE1A000DE646E /* AppDelegate.swift in Sources */,
+				9288045A1A63E74800ACE22E /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				92A72A361A5BE1A100DE646E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92A72A371A5BE1A100DE646E /* Build configuration list for PBXNativeTarget "RGB SliderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				92A72A391A5BE1A100DE646E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
